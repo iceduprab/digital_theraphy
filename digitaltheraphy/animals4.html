@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" type="text/css" href="styles/video.css">
+
+    <script type="text/javascript">
+        function menu() {
+           location.assign("home.html");
+        }
+
+        function back() {
+            location.assign("animals3.html");
+        }
+
+        function next() {
+            location.assign("animals5.html");
+        }
+    </script>
+</head>
+<body>
+    <div class="yt-video">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/V0i8iMYb4h4?si=6wUv0ktPCZzFi4Lu&autoplay=1&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="buttons">
+            <button class="b1" onclick="menu();">メニューに戻る</button>
+            <button class="b2" onclick="back();">前へ</button>
+            <button class="b3" onclick="next();">次へ</button>
+        </div>
+</body>
+</html>

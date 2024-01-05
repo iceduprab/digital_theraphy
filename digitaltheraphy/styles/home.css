@@ -1,0 +1,83 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    color: white;
+}
+
+.baby-img,
+.songs-img,
+.animals-img,
+.smile-img,
+.shokuin-img {
+    width: 200px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+/* .buttons {
+    border: solid;
+    display: grid;
+    grid-template-columns: auto, auto;
+} */
+
+.b1,
+.b2,
+.b3,
+.b4,
+.b5 {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &:active {
+        opacity: 0.66;
+    }
+}
+
+/* .back-box {
+} */
+
+.back-text {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 75px;
+    top: 10px;
+}
+
+.back-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: -6px;
+    top: 2px;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    &:active {
+        opacity: 0.77;
+    }
+}
+
+.left-arrow {
+    width: 70px;
+}
